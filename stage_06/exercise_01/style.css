@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.home {
+  background-image: url("img/mountains-universe-1.png");
+}
+
+nav {
+  margin: 4rem 7rem;
+
+  display: flex;
+  justify-content: left;
+
+  gap: 4.2rem;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.2;
+
+  text-decoration: none;
+
+  color: #ffffff;
+
+  gap: 4.2rem;
+}
+
+nav a:hover {
+  font-weight: 700;
+}
